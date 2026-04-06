@@ -12,7 +12,7 @@ def build_input(messages: List[Dict[str, str]]) -> List[Dict[str, str]]:
 
 def main() -> None:
     load_dotenv(".env")
-    load_dotenv(".env.test")
+    load_dotenv(".env.example")
 
     api_key = os.getenv("OPENAI_API_KEY")
     if not api_key:
