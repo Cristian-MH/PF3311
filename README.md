@@ -22,7 +22,7 @@ Programa de chat utilizando Python y OpenAI API.
    ```powershell
    pip install -r requirements.txt
    ```
-3. Crear archivo `.env` a partir de `.env.test`:
+3. Crear archivo `.env` a partir de `.env.example`:
    ```powershell
    Copy-Item .env.example .env
    ```
